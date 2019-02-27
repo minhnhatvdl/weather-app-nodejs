@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/minhnhatvdl/weather-app-nodejs/issues"
   },
-  "homepage": "https://github.com/minhnhatvdl/weather-app-nodejs#readme"
+  "homepage": "https://github.com/minhnhatvdl/weather-app-nodejs#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "yargs": "^13.2.1"
+  }
 }
