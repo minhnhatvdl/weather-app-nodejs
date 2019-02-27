@@ -1,5 +1,5 @@
 const request = require("request");
-const KEY_GOOGLE_API = "AIzaSyDlYWwXphwK_-DSFlFDsQR5fJn9mjIsmTI";
+const KEY_GOOGLE_API = "";
 
 // // use callback function
 // geocodeAddress = (address, callback) => {
