@@ -1,11 +1,12 @@
 const request = require("request");
+const KEY_GOOGLE_API = "AIzaSyDlYWwXphwK_-DSFlFDsQR5fJn9mjIsmTI";
 
 // // use callback function
 // geocodeAddress = (address, callback) => {
 //   // encode address
 //   const addressInput = encodeURIComponent(address);
 //   // set url google map api
-//   const url = `https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDlYWwXphwK_-DSFlFDsQR5fJn9mjIsmTI&address=${addressInput}`;
+//   const url = `https://maps.googleapis.com/maps/api/geocode/json?key=${KEY_GOOGLE_API}&address=${addressInput}`;
 //   request(url, (error, response, body) => {
 //     const dataJSON = JSON.parse(body);
 //     if (error) {
@@ -27,7 +28,7 @@ geocodeAddress = address => {
   // encode address
   const addressInput = encodeURIComponent(address);
   // set url google map api
-  const url = `https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyDlYWwXphwK_-DSFlFDsQR5fJn9mjIsmTI&address=${addressInput}`;
+  const url = `https://maps.googleapis.com/maps/api/geocode/json?key=${KEY_GOOGLE_API}&address=${addressInput}`;
   return new Promise((resolve, reject) => {
     request(url, (error, response, body) => {
       const dataJSON = JSON.parse(body);
