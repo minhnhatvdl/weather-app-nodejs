@@ -1,0 +1,19 @@
+{
+  "name": "weather-app-nodejs",
+  "version": "1.0.0",
+  "description": "a weather app based on nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minhnhatvdl/weather-app-nodejs.git"
+  },
+  "author": "minhnhat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minhnhatvdl/weather-app-nodejs/issues"
+  },
+  "homepage": "https://github.com/minhnhatvdl/weather-app-nodejs#readme"
+}
